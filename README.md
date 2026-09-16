@@ -11,7 +11,7 @@ function dailyLog173() {
   const pending = tasks.filter(task => task.status === "pending").length;
   const progress = (completed / tasks.length) * 100;
 
-  const report = {
+  const repor= {
     date: new Date().toISOString().split("T")[0],
     totalTasks: tasks.length,
     completed,
